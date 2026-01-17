@@ -2,6 +2,8 @@
 
 Small CLI helper for the Idealista API (v3.5). It wraps OAuth2, paging, and basic stats.
 
+This repo also includes a Clawdbot skill file at `skill/SKILL.md` so agents can call the CLI.
+
 ## Setup
 
 Request access + credentials: https://developers.idealista.com/access-request
