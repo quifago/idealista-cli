@@ -23,6 +23,18 @@ python3 -m idealista_cli config set --api-key "..." --api-secret "..."
 
 ## Examples
 
+### Natural language (via the Skill + an AI agent)
+
+If you use the Clawdbot skill (`skill/SKILL.md`) and wire it into an AI agent, you can ask for real-estate info in natural language and have the agent translate it into CLI calls.
+
+Example prompts:
+- "Find a flat in A Coruña under 200.000€"
+- "Tell me the average price of a house around here: 39°34'33.5\"N 0°30'10.0\"W"
+- "Búscame un apartamento de 3 habs en Tapia de Casariego para comprar"
+- "Cuanto vale mi actual vivienda? Dame una estimacion de precios"
+
+### CLI commands
+
 Get a token (with retries/timeout):
 
 ```
